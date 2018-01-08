@@ -1,0 +1,16 @@
+{
+"manifest_version":2,
+"name":"Quora It!",
+"version":"0.001",
+"content_scripts":[
+{
+"matches":[
+"<all_urls>"
+],
+"js":["content.js"]
+}],     
+"browser_action":{
+"default_popup":"pop.html",
+"default_icon":"quora_icon.png"
+}
+}
